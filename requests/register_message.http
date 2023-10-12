@@ -1,0 +1,7 @@
+POST http://localhost:30001/api/kafka/test
+Content-Type: application/json
+
+{
+    "Message": "This is a new message on tasks-topic - another new message 3",
+    "TopicName": "tasks-topic"
+}
